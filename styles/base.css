@@ -35,7 +35,7 @@ nav {
     background-color: black;
     margin: 0 auto;
     max-width: 800px;
-    padding: 1rem;
+    padding: 0 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
