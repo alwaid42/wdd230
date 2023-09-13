@@ -27,6 +27,7 @@ header {
 header img {
     margin-right: 2rem;
     border: 1px solid #000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 nav {
@@ -69,6 +70,7 @@ section {
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
 .card ul {
