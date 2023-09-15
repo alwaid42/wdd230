@@ -8,6 +8,10 @@ h3 {
     font-family: 'Gelasio', serif;
 }
 
+h2 {
+    margin-left: 2rem;
+}
+
 header,
 main,
 footer {
@@ -64,6 +68,68 @@ main {
     background-color: #F5F5F5;
     padding: 0 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: block;
+    margin: 1rem;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #8EE3EF;
+}
+
+.secondary {
+    background-color: #023047;
+    color: #fff;
+}
+
+.background {
+    background-color: #F5F5F5;
+}
+
+.bottom {
+    background-color: #37718E;
+    color: #fff;
+}
+
+.accent {
+    background-color: #AEF3E7;
+}
+
+section p {
+    padding: 0.5rem;
+}
+
+section ul {
+    list-style-type: square;
+}
+
+section li {
+    padding: 0.5rem;
+}
+
+section img {
+    max-width: 100%;
 }
 
 footer {
