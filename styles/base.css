@@ -1,21 +1,26 @@
 body {
     font-family: 'Cabin', sans-serif;
+    font-size: 18px;
 }
 
-h1,
-h2,
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
 h3 {
     font-family: 'Merriweather', serif;
-}
-
-header,
-main,
-footer {
-    max-width: 800px;
-    margin: 0 auto;
+    font-size: 25px;
 }
 
 header {
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #bbb;
     display: flex;
     align-items: center;
@@ -31,20 +36,46 @@ header img {
     width: 25%;
 }
 
+/* phone or baseline views **************************/
 nav {
     background-color: black;
     margin: 0 auto;
     max-width: 832px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #000;
+    color: #fff;
 }
 
-nav ul {
-    list-style-type: none;
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3px 7px 6px;
+    margin: 0;
+    position: relative;
+    left: 48%;
+}
+
+#menu::before {
+    content: "☰ Menu";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav a {
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
     display: block;
     color: #fff;
     text-align: center;
@@ -52,16 +83,29 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.navigation li a:hover {
     background-color: white;
     color: black;
+    font-weight: 700;
 }
 
 .active {
     background-color: brown;
 }
 
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
 main {
+    max-width: 800px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
@@ -81,6 +125,8 @@ section {
 
 
 footer {
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #bbb;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
