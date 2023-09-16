@@ -25,11 +25,11 @@ modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) {
         main.style.background = "#111";
         main.style.color = "#fff";
-        linkNew.forEach((link) => {
-            link.style.color = "#FFEA00";
+        linkNew.forEach((linkN) => {
+            linkN.style.color = "#FFEA00";
         });
-        linkUsed.forEach((link) => {
-            link.style.color = "#00A36C";
+        linkUsed.forEach((linkU) => {
+            linkU.style.color = "#00A36C";
         });
         modeButton.textContent = "❎";
     } else {
@@ -38,8 +38,8 @@ modeButton.addEventListener("click", () => {
         linkNew.forEach((link) => {
             link.style.color = "#00e";
         });
-        linkUsed.forEach((link) => {
-            link.style.color = "#551a8b";
+        linkUsed.forEach((linkN) => {
+            linkU.style.color = "#551a8b";
         });
         modeButton.textContent = "☑️";
     }
