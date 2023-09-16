@@ -115,10 +115,10 @@ main {
 }
 
 #mode {
-    position: relative;
+    position: absolute;
     top: 1rem;
-    right: 1rem;
-    font-size: 3rem;
+    right: 25%;
+    font-size: 1rem;
     cursor: pointer;
 }
 

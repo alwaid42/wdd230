@@ -27,13 +27,13 @@ modeButton.addEventListener("click", () => {
         link.forEach((linkN) => {
             linkN.style.color = "#FFEA00";
         });
-        modeButton.textContent = "❎";
+        modeButton.textContent = "Dark Mode: ❎";
     } else {
         main.style.background = "#fff";
         main.style.color = "#000";
         link.forEach((linkN) => {
             linkN.style.color = "#00e";
         });
-        modeButton.textContent = "☑️";
+        modeButton.textContent = "Dark Mode: ☑️";
     }
 });
