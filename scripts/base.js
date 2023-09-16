@@ -18,28 +18,21 @@ hamButton.addEventListener('click', () => {
 //Dark mode button
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
-const linkNew = document.querySelectorAll("section a");
-const linkUsed = document.querySelectorAll("section a:visited");
+const link = document.querySelectorAll("section a");
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) {
-        main.style.background = "#111";
+        main.style.background = "#323232";
         main.style.color = "#fff";
-        linkNew.forEach((linkN) => {
+        link.forEach((linkN) => {
             linkN.style.color = "#FFEA00";
-        });
-        linkUsed.forEach((linkU) => {
-            linkU.style.color = "#00A36C";
         });
         modeButton.textContent = "❎";
     } else {
         main.style.background = "#fff";
         main.style.color = "#000";
-        linkNew.forEach((link) => {
-            link.style.color = "#00e";
-        });
-        linkUsed.forEach((linkN) => {
-            linkU.style.color = "#551a8b";
+        link.forEach((linkN) => {
+            linkN.style.color = "#00e";
         });
         modeButton.textContent = "☑️";
     }

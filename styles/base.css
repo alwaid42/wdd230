@@ -135,8 +135,8 @@ section a {
 }
 
 section a:visited {
-    color: #551a8b;
-    text-decoration: underline;
+    color: #00e;
+    text-decoration: none;
 }
 
 .card ul {
