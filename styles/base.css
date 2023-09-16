@@ -129,8 +129,9 @@ section {
     box-shadow: 0 0 10px #777;
 }
 
-section a:link {
+section a {
     color: #00e;
+    text-decoration: none;
 }
 
 section a:visited {

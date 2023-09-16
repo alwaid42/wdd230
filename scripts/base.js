@@ -18,7 +18,7 @@ hamButton.addEventListener('click', () => {
 //Dark mode button
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
-const linkNew = document.querySelectorAll("section a:link");
+const linkNew = document.querySelectorAll("section a");
 const linkUsed = document.querySelectorAll("section a:visited");
 
 modeButton.addEventListener("click", () => {
