@@ -24,6 +24,7 @@ modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) {
         main.style.background = "#323232";
         main.style.color = "#fff";
+        modeButton.style.color = "#000";
         link.forEach((linkN) => {
             linkN.style.color = "#FFEA00";
         });
@@ -31,6 +32,7 @@ modeButton.addEventListener("click", () => {
     } else {
         main.style.background = "#fff";
         main.style.color = "#000";
+        modeButton.style.color = "#000";
         link.forEach((linkN) => {
             linkN.style.color = "#00e";
         });
