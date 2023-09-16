@@ -52,15 +52,15 @@ nav {
     padding: 3px 7px 6px;
     margin: 0;
     position: relative;
-    left: 48%;
+    left: 40%;
 }
 
 #menu::before {
-    content: "☰ Menu";
+    content: "☰ ";
 }
 
 #menu.open::before {
-    content: "✖";
+    content: "✖ ";
 }
 
 .navigation {
