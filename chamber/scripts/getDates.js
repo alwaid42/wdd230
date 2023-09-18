@@ -6,7 +6,7 @@ let lastModified = document.lastModified;
 document.querySelector('#lastModified').innerHTML = `Last modification: ${lastModified}`;
 
 //Hamburguer button
-const hamButton = document.querySelector('#menu');
+const hamButton = document.querySelector('.menu');
 const navigation = document.querySelector('.navigation');
 
 hamButton.addEventListener('click', () => {

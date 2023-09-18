@@ -30,7 +30,7 @@
     </header>
 
     <nav>
-        <button id="menu">Menu</button>
+        <button class="menu">Menu</button>
         <ul class="navigation">
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="#">Discover</a></li>
@@ -40,24 +40,70 @@
     </nav>
 
     <main>
-        <img id="hero-image" src="images/pexels-pixabay-280193.jpg" alt="City Aerial view by Pixabay">
+        <img class="hero-image" src="images/pexels-pixabay-280193.jpg" alt="City Aerial view by Pixabay">
+        <a class="call-to-action" href="#">Join the chamber</a>
         <section class="event">
-            <h2>Current Events</h2>
+            <h2>Events</h2>
+            <hr>
+            <h3>Opening Ceremony</h3>
+            <p>
+                Join us for the opening ceremony of the Sports Shack,
+                <br>Friday at 7:00 p.m.
+            </p>
         </section>
         <section class="weather">
             <h2>Weather</h2>
+            <hr>
+            <p>
+                33°
+                <br><b>Partly Cloudy</b>
+                <br>Humidity:
+                <br> Windchill: N/A
+            </p>
         </section>
         <section class="spotlight">
-            <h2>Spotlight</h2>
+            <h2>Member Spotlight</h2>
+            <hr>
+            <div class="spot-flex">
+                <div class="spot1">
+                    <h3>Pet your pet petshop</h3>
+                    <p>
+                        contact@petpet.pet
+                        <br>244 542 8820
+                        <br>Website
+                    </p>
+                </div>
+                <div class="spot2">
+                    <h3>Fix it up Car Repair</h3>
+                    <p>
+                        contact@fixit.fix
+                        <br>284 331 6123
+                        <br>Website
+                    </p>
+                </div>
+                <div class="spot3">
+                    <h3>Prime Pizza</h3>
+                    <p>
+                        contact@prime.pizza
+                        <br>284 391 6224
+                        <br>Website
+                    </p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <img src="images/udi-chamber-logo.png" alt="Udi Chamber Logo by logo.com">
-        <p id="email">contact@udichamber.com</p>
-        <p id="phone">+55 955 229 7905</p>
-        <p id="siteInfo">&copy; <span id="current-year"></span> Udi Chamber | Ronaldo Martins Schmidt | WDD 230 Project
-        </p>
+        <img src="images/udi-chamber-logo.png" alt="Udi Chamber Logo">
+        <div class="contactInfo">
+            <p>contact@udichamber.com</p>
+            <p>955 229 7905</p>
+        </div>
+        <div class="siteInfo">
+            <p>| &copy; <span id="current-year"></span>Udi Chamber |</p>
+            <p>| Ronaldo Martins Schmidt |</p>
+            <p>| WDD 230 Project |</p>
+        </div>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>

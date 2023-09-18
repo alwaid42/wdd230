@@ -2,18 +2,19 @@ body {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    font-family: 'Gelasio', serif;
-}
-
 h1 {
+    font-family: 'Gelasio', serif;
     text-align: center;
 }
 
 h2 {
+    font-family: 'Gelasio', serif;
     margin-left: 2rem;
+}
+
+h3 {
+    font-family: 'Gelasio', serif;
+    text-align: center;
 }
 
 header,
@@ -30,7 +31,7 @@ header {
     justify-content: center;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    color: #0063DB;
+    color: #000;
 }
 
 header img {
@@ -46,7 +47,7 @@ nav {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#menu {
+.menu {
     font-size: 1.5rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 3px 7px 6px;
@@ -55,11 +56,11 @@ nav {
     left: 40%;
 }
 
-#menu::before {
+.menu::before {
     content: "☰ ";
 }
 
-#menu.open::before {
+.menu.open::before {
     content: "✖ ";
 }
 
@@ -108,9 +109,26 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#hero-image {
+.hero-image {
     max-width: 100%;
     margin: 0;
+}
+
+.call-to-action {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 1rem;
+    position: relative;
+}
+
+.call-to-action:hover {
+    background-color: #AEF3E7;
+    color: #000;
 }
 
 section {
@@ -123,6 +141,7 @@ section {
 
 section p {
     padding: 0.5rem;
+    text-align: center;
 }
 
 section ul {
@@ -137,12 +156,34 @@ section img {
     max-width: 100%;
 }
 
+.spot1 {
+    border: 1px solid #cac3c3;
+    overflow-wrap: break-word;
+    margin: 1rem;
+}
+
+.spot2 {
+    border: 1px solid #cac3c3;
+    overflow-wrap: break-word;
+    margin: 1rem;
+}
+
+.spot3 {
+    border: 1px solid #cac3c3;
+    overflow-wrap: break-word;
+    margin: 1rem;
+}
+
 footer {
-    background-color: #37718E;
+    background-color: #224658;
     color: #fff;
     padding: 0 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+.site-info {
+    overflow-wrap: break-word;
 }
 
 footer img {
