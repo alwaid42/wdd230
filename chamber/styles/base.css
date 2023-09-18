@@ -38,6 +38,7 @@ header img {
     width: 25%;
 }
 
+/* phone or baseline views **************************/
 nav {
     background-color: #254E70;
     margin: 0 auto;
@@ -45,13 +46,36 @@ nav {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 3px 7px 6px;
+    margin: 0;
+    position: relative;
+    left: 40%;
+}
+
+#menu::before {
+    content: "☰ ";
+}
+
+#menu.open::before {
+    content: "✖ ";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-nav a {
+.navigation li {
+    display: none;
+}
+
+.navigation li a {
     display: block;
     color: #fff;
     text-align: center;
@@ -59,7 +83,7 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+.navigation li a:hover {
     background-color: white;
     color: #254E70;
 }
@@ -68,10 +92,25 @@ nav a:hover {
     background-color: #8F0000;
 }
 
+/* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
 main {
     background-color: #F5F5F5;
     padding: 0 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#hero-image {
+    max-width: 100%;
+    margin: 0;
 }
 
 section {
@@ -104,4 +143,9 @@ footer {
     padding: 0 1rem 0;
     border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+footer img {
+    height: 50px;
+    margin: 1rem;
 }

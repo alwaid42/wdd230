@@ -1,9 +1,57 @@
 @media screen and (min-width: 500px) {
-    nav ul {
-        display: flex;
+    #menu {
+        display: none;
+        /* hide hamburger button */
     }
 
-    nav ul li {
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navigation li {
+        display: block;
         flex: 1 1 100%;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        line-height: 0%;
+    }
+
+    footer img {
+        height: 75px;
+        grid-row: 1/4;
+        grid-column: 1/2;
+    }
+
+    #email {
+        grid-row: 1/2;
+        grid-column: 2/3;
+        margin: 1rem;
+        align-self: center;
+    }
+
+    #phone {
+        grid-row: 1/2;
+        grid-column: 3/4;
+        margin: 1rem;
+        align-self: center;
+    }
+
+    #siteInfo {
+        grid-row: 2/3;
+        grid-column: 2/4;
+        align-self: center;
+    }
+
+    #lastModified {
+        grid-row: 3/4;
+        grid-column: 2/4;
+        align-self: center;
     }
 }
