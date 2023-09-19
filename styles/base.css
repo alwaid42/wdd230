@@ -147,6 +147,9 @@ section a:visited {
     margin: 1rem;
 }
 
+#information p {
+    text-align: center;
+}
 
 footer {
     max-width: 800px;
