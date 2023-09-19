@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazyload Demonstration</title>
+    <meta name="description"
+        content="Page created as part of the WDD 230 - Web Frontend Development class,Page demonstrating lazyload. Page showcasing the assigments realized by Ronaldo Martins Schmidt.">
+    <meta name="author" content="Ronaldo Martins Schmidt">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="styles/lazyload.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Lazyload Demonstration</h1>
+    </header>
+
+    <main>
+        <picture><img src="https://loremflickr.com/400/600" loading="lazy" width="400" height="600"
+                alt="flicr placeholder"></picture>
+        <picture><img src="https://picsum.photos/400/600" loading="lazy" width="400" height="600"
+                alt="random picture placeholder"></picture>
+        <picture><img src="https://placebeard.it/400/600/" loading="lazy" width="400" height="600"
+                alt="beard placeholder"></picture>
+        <picture><img src="https://baconmockup.com/400/600/" loading="lazy" width="400" height="600"
+                alt="bacon placeholder"></picture>
+        <picture><img src="https://placekitten.com/400/600" loading="lazy" width="400" height="600"
+                alt="kitten placeholder"></picture>
+        <picture><img src="https://placebear.com/400/600" loading="lazy" width="400" height="600"
+                alt="bear placeholder"></picture>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> | Ronaldo Martins Schmidt | WDD 230 - Web Development</p>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/lazyload.js"></script>
+</body>
+
+</html>
