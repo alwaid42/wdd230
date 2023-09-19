@@ -163,12 +163,14 @@ section {
 
 section a {
     color: #00e;
-    text-decoration: none;
 }
 
 section a:visited {
     color: #00e;
-    text-decoration: none;
+}
+
+section a:hover {
+    background-color: #777;
 }
 
 .card ul {
