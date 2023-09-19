@@ -44,7 +44,7 @@ modeButton.addEventListener("click", () => {
 //page visits
 const visitDisplay = document.querySelector(".page-visits");
 
-const numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
 
 if (numVisits !== 0) {
     visitDisplay.textContent = numVisits;
@@ -53,6 +53,6 @@ else {
     visitDisplay.textContent = `1`;
 }
 
-numVisits++
+numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
