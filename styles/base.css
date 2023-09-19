@@ -169,10 +169,6 @@ section a:visited {
     color: #00e;
 }
 
-section a:hover {
-    background-color: #777;
-}
-
 .card ul {
     list-style-type: none;
 }
