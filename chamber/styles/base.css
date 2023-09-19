@@ -37,6 +37,7 @@ header {
 header img {
     margin-right: 2rem;
     width: 25%;
+    height: auto;
 }
 
 /* phone or baseline views **************************/
@@ -110,7 +111,8 @@ main {
 }
 
 .hero-image {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     margin: 0;
 }
 
@@ -188,5 +190,6 @@ footer {
 
 footer img {
     height: 50px;
+    width: auto;
     margin: 1rem;
 }
