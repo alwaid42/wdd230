@@ -19,11 +19,13 @@ hamButton.addEventListener('click', () => {
 const modeButton = document.querySelector("#mode");
 const main = document.querySelector("main");
 const link = document.querySelectorAll("section a");
+const herolabel = document.querySelector(".herolabel")
 
 modeButton.addEventListener("click", () => {
     if (modeButton.textContent.includes("☑️")) {
         main.style.background = "#323232";
         main.style.color = "#fff";
+        herolabel.style.background = "radial-gradient(#000, #4D5B97)";
         link.forEach((linkN) => {
             linkN.style.color = "#FFEA00";
         });
@@ -31,9 +33,26 @@ modeButton.addEventListener("click", () => {
     } else {
         main.style.background = "#fff";
         main.style.color = "#000";
+        herolabel.style.background = "radial-gradient(#fff, #4D5B97)";
         link.forEach((linkN) => {
             linkN.style.color = "#00e";
         });
         modeButton.textContent = "Dark Mode: ☑️";
     }
 });
+
+//page visits
+const visitDisplay = document.querySelector(".page-visits");
+
+const numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
+
+if (numVisits !== 0) {
+    visitDisplay.textContent = numVisits;
+}
+else {
+    visitDisplay.textContent = `1`;
+}
+
+numVisits++
+
+localStorage.setItem("numVisits-ls", numVisits);

@@ -19,7 +19,7 @@ h3 {
 }
 
 header {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #bbb;
     display: flex;
@@ -33,14 +33,15 @@ header img {
     margin-right: 2rem;
     border: 1px solid #000;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
-    width: 25%;
+    width: 30%;
+    height: auto;
 }
 
 /* phone or baseline views **************************/
 nav {
     background-color: black;
     margin: 0 auto;
-    max-width: 832px;
+    max-width: 992px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #000;
     color: #fff;
@@ -104,7 +105,7 @@ nav {
 }
 
 main {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     display: grid;
     margin-top: 1rem;
@@ -112,6 +113,38 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 
+}
+
+.hero {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, .1);
+    height: 500px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.herolabel {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#fff, #4D5B97);
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.herolabel p {
+    margin: 0;
+    padding: .25rem;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
 }
 
 #mode {
@@ -151,8 +184,26 @@ section a:visited {
     text-align: center;
 }
 
+.google-map {
+    max-width: 960px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50%;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #777;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
 footer {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     background-color: #bbb;
     text-align: center;
