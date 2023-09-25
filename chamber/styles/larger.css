@@ -57,6 +57,19 @@
         padding: 1rem;
     }
 
+    .data-view {
+        grid-column: 1/2;
+    }
+
+    .figure-view {
+        grid-column: 2/6;
+    }
+
+    .figure-view img:hover {
+        filter: sepia(50%);
+
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -93,7 +106,7 @@
         grid-column: 2/4;
     }
 
-    #lastModified {
+    .lastModified {
         grid-row: 3/4;
         grid-column: 2/4;
         align-self: center;
