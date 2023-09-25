@@ -175,6 +175,8 @@ section img {
 }
 
 .figure-view img {
+    width: 100%;
+    height: auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
