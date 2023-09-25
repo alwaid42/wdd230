@@ -62,7 +62,7 @@
     }
 
     .figure-view {
-        grid-column: 2/6;
+        grid-column: 2/5;
     }
 
     .figure-view img:hover {
