@@ -57,3 +57,28 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
+input[type=range] {
+    margin: 1rem;
+    padding: 0.5em;
+}
+
+#rating {
+    width: 180px;
+    margin-bottom: 0;
+}
+
+#rangevalue {
+    font-size: 2rem;
+    color: navy;
+}
+
+#rangevalues {
+    display: flex;
+    margin: 0 0 0 20px;
+    width: 200px;
+}
+
+#rangevalues option {
+    flex: 1 1 auto;
+}
