@@ -1,12 +1,22 @@
+:root {
+    --blue-color: #445ba9;
+    --red-color: #9c2c13;
+    --gray-color: #555;
+}
+
+#mode {
+    display: none;
+}
+
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid var(--blue-color);
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color: var(--blue-color);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -15,7 +25,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: var(--red-color);
     font-size: .8rem;
 }
 
@@ -27,7 +37,7 @@ form label.top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: var(--gray-color);
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
@@ -36,12 +46,12 @@ form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: var(--gray-color);
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: var(--red-color);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -64,18 +74,18 @@ input[type=range] {
 }
 
 #rating {
-    width: 180px;
+    width: 190px;
     margin-bottom: 0;
 }
 
 #rangevalue {
     font-size: 2rem;
-    color: navy;
+    color: var(--blue-color);
 }
 
 #rangevalues {
     display: flex;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 25px;
     width: 200px;
 }
 

@@ -42,49 +42,53 @@
     </nav>
 
     <main>
-        <form method="get" action="record.html">
-            <fieldset>
-                <h2>Create account:</h2>
-                <label class="top">Username*<input type="text" id="username" name="username" required></label>
-                <label class="top">Password*<input type="password" id="password" name="password"
-                        pattern="[A-Za-z0-9]{8,}" required></label>
-                <label class="top">Repeat Password*<input type="password" id="password_repeat" name="password_repeat"
-                        required></label>
-                <label class="top">Email*<input type="email" id="email" name="email"
-                        pattern="^[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
-                        required></label>
+        <section>
+            <h2>Create account:</h2>
+            <form method="get" action="record.html">
+                <fieldset>
 
-                <div>
-                    <label for="rating">Page Rating</label>
-                    <div id="rangevalue">5</div>
-                    <input type="range" id="rating" name="rating" min="1" max="10" value="5" step="1"
-                        list="rangevalues">
-                    <datalist id="rangevalues">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                    </datalist>
-                </div>
+                    <label class="top">Username*<input type="text" id="username" name="username" required></label>
+                    <label class="top">Password*<input type="password" id="password" name="password"
+                            pattern="[A-Za-z0-9]{8,}" required></label>
+                    <label class="top">Repeat Password*<input type="password" id="password_repeat"
+                            name="password_repeat" pattern="[A-Za-z0-9]{8,}" required></label>
+                    <div id="pwmsg"></div>
+                    <label class="top">Email*<input type="email" id="email" name="email"
+                            pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
+                            required></label>
 
+                    <div>
+                        <label for="rating">Page Rating</label>
+                        <div id="rangevalue">5</div>
+                        <input type="range" id="rating" name="rating" min="1" max="10" value="5" step="1"
+                            list="rangevalues">
+                        <datalist id="rangevalues">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </datalist>
+                    </div>
+
+
+                </fieldset>
                 <input type="submit" value="Sign Up" class="submitBtn">
-            </fieldset>
 
-
-        </form>
+            </form>
+        </section>
     </main>
 
     <footer>
         <p>&copy; <span id="current-year"></span> | Ronaldo Martins Schmidt | Brazil</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/base.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 
 </html>
