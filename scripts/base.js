@@ -56,3 +56,15 @@ else {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+//FORMS
+const rangevalue = document.getElementById("rangevalue");
+const range = document.getElementById("rating");
+
+//Range event listener
+range.addEventListener('change', displayRatingValue);
+range.addEventListener('input', displayRatingValue);
+
+function displayRatingValue() {
+    rangevalue.innerHTML = range.value;
+}
