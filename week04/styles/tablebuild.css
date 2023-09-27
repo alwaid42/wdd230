@@ -1,0 +1,52 @@
+:root {
+    --border: hsla(0, 0%, 20%, 1);
+    --borderlight: hsla(0, 0%, 33%, .3);
+    --zebra: hsl(0, 0%, 93%, 1);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+thead tr th {
+    font-size: larger;
+    padding: 10px 15px;
+}
+
+tbody tr td {
+    padding: 7px 15px;
+}
+
+tr td {
+    font-weight: 700;
+}
+
+th,
+td {
+    border: 1px solid var(--borderlight);
+}
+
+td {
+    text-align: center;
+}
+
+.service-type {
+    background-color: gray;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
