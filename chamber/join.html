@@ -41,8 +41,53 @@
     </nav>
 
     <main>
-        <section>
+        <section id="formarea">
             <h2>Placeholder</h2>
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First name*<input type="text" id="firstname" name="firstname" required></label>
+
+                    <label class="top">Last name*<input type="text" id="lastname" name="lastname" required></label>
+
+                    <label class="top">Email address*<input type="email" id="email" name="email" required
+                            placeholder="example@email.com"></label>
+
+                    <label class="top">Mobile phone number*<input type="telephone" id="phone" name="phone"
+                            required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Company Information</legend>
+                    <label class="top">Title or position<input type="text" id="position" name="position"
+                            pattern="[a-zA-Z -]{7,}"></label>
+
+                    <label class="top">Business/organization's name*<input type="text" id="organization"
+                            name="organization" required></label>
+
+                    <label for="area" class="top">Business/organization's description
+                        <textarea id="area"></textarea></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Membership level</legend>
+                    <div>Choose one:</div>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membershipg</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                </fieldset>
+
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+                <input type="submit" value="Join Chamber!" class="submitBtn">
+            </form>
+        </section>
+        <section id="membershipInfo">
+            <h2>Placeholder</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus, ipsam perferendis? At placeat in
+                accusantium quidem a assumenda sapiente, ratione minima facilis consequuntur. Aliquid mollitia eveniet,
+                ab debitis ex ducimus.</p>
         </section>
     </main>
 

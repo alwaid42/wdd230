@@ -215,3 +215,67 @@ footer img {
     width: auto;
     margin: 1rem;
 }
+
+/*Form*/
+form fieldset {
+    margin: 10px;
+    padding: 1rem;
+    background-color: #d4f4f8;
+    border: none;
+    border-radius: 0 15%;
+}
+
+form legend {
+    background-color: #254E70;
+    color: #fff;
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: 50% 20%;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+.submitBtn {
+    margin-left: 30px;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: 1rem 0;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    padding: .5rem;
+    width: 90%;
+    max-width: 20rem;
+    border-color: #fff;
+}
+
+form label.top input:required {
+    border: red solid 1px;
+    background-color: lightgoldenrodyellow;
+}
+
+form label.top input:required:valid {
+    border: green solid 1px;
+    background-color: #fff;
+}
+
+form label.top input:focus {
+    background-color: rgb(209, 199, 199);
+}

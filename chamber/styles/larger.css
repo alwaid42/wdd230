@@ -70,6 +70,17 @@
 
     }
 
+    /*Join Page*/
+    #formarea {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #membershipInfo {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -111,4 +122,6 @@
         grid-column: 2/4;
         align-self: center;
     }
+
+
 }
