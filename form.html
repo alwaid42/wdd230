@@ -45,15 +45,15 @@
         <section>
             <h2>Create account:</h2>
             <form method="get" action="record.html">
+                Required fields are followed by *
                 <label class="top">Username*<input type="text" id="username" name="username" required></label>
                 <label class="top">Password*<input type="password" id="password" name="password"
                         pattern="[A-Za-z0-9]{8,}" required></label>
                 <label class="top">Repeat Password*<input type="password" id="password_repeat" name="password_repeat"
                         pattern="[A-Za-z0-9]{8,}" required></label>
                 <div id="pwmsg"></div>
-                <label class="top">Email*<input type="email" id="email" name="email"
-                        pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"
-                        required></label>
+                <label class="top">Email*<input type="email" id="email" name="email" pattern=".+@byui\.edu"
+                        title="Please enter a valid email address" required></label>
 
                 <div>
                     <label for="rating">Page Rating</label>
