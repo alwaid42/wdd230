@@ -240,6 +240,13 @@ form label {
 
 .submitBtn {
     margin-left: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: .5em;
+}
+
+.submitBtn:hover {
+    background-color: #8F0000;
 }
 
 form label.top,
@@ -257,7 +264,6 @@ form label.sbs {
 form label.top input,
 form label.top select,
 form label.top textarea {
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     padding: .5rem;
@@ -266,7 +272,8 @@ form label.top textarea {
     border-color: #fff;
 }
 
-form label.top input:required {
+
+form label.top textarea form label.top input:required {
     border: red solid 1px;
     background-color: lightgoldenrodyellow;
 }
