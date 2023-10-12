@@ -46,3 +46,4 @@ function setLastVisit() {
 function getLastVisit() {
     return JSON.parse(localStorage.getItem('lastVisit') || today);
 }
+

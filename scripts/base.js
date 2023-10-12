@@ -56,3 +56,37 @@ else {
 numVisits++;
 
 localStorage.setItem("numVisits-ls", numVisits);
+
+//Weather api
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('#current-condition');
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-18.91&lon=-48.27&appid=9af1b89696326a7ab94400d81843b3d8&units=metric';
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            //console.log(data);
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;C`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', `Weather ${desc}`);
+    captionDesc.textContent = `${desc}`;
+}
+
+apiFetch();
+

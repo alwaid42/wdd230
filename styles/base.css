@@ -213,3 +213,8 @@ footer {
 footer p {
     margin: 0.3rem;
 }
+
+#weather-icon {
+    display: block;
+    margin: 0 auto;
+}
