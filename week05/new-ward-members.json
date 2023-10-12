@@ -1,0 +1,28 @@
+{
+    "familyName": "Jenkins Family",
+    "moveDate": "2022-02-25",
+    "recordNumber": 4,
+    "bishopricVisit": true,
+    "members": [
+        {
+            "name": "Alvin Jenkins",
+            "gender": "M",
+            "birthdate": "1975-06-10"
+        },
+        {
+            "name": "Bianka Jenkins",
+            "gender": "F",
+            "birthdate": "1978-11-30"
+        },
+        {
+            "name": "Charles Jenkins",
+            "gender": "M",
+            "birthdate": "2000-10-18"
+        },
+        {
+            "name": "Diana Jenkins",
+            "gender": "F",
+            "birthdate": "2004-04-07"
+        }
+    ]
+}
