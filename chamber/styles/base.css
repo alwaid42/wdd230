@@ -290,5 +290,12 @@ form label.top input:focus {
 /* directory */
 #members {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    text-align: center;
+}
+
+#members a {
+    display: inline;
+    word-wrap: break-word;
+    margin: 0 auto;
 }
