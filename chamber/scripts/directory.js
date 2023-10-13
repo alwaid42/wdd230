@@ -35,7 +35,7 @@ const displayMembers = (companies) => {
         phone.innerHTML = company.phonenumber;
         address.innerHTML = company.address;
 
-        anchor.setAttribute('href', company.website);
+        anchor.setAttribute('href', `https://${company.website}`);
         anchor.setAttribute('target', '_blank');
         anchor.textContent = `${company.website}`;
 
