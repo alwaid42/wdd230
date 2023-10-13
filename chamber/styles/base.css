@@ -286,3 +286,9 @@ form label.top input:required:valid {
 form label.top input:focus {
     background-color: rgb(209, 199, 199);
 }
+
+/* directory */
+#members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
