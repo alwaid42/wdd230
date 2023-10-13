@@ -3,7 +3,7 @@
         {
             "name": "Alpha Automotive Showroom",
             "address": "Aldebaran Avenue, 1753",
-            "phonenumber": "10016543",
+            "phonenumber": "(101) 10016543",
             "website": "www.alphaautomotiveshowroom.com",
             "icon": "images/alpha.webp",
             "membershiplevel": "NP"
@@ -11,7 +11,7 @@
         {
             "name": "Beta Bakery",
             "address": "Beta Tauri Boulevard, 467",
-            "phonenumber": "10016719",
+            "phonenumber": "(101) 10016719",
             "website": "www.betabakery.com",
             "icon": "images/beta.webp",
             "membershiplevel": "Bronze"
@@ -19,7 +19,7 @@
         {
             "name": "Gamma Clothing Store",
             "address": "Alcyone Drive, 17",
-            "phonenumber": "10016953",
+            "phonenumber": "(101) 10016953",
             "website": "www.gammaclothingstore",
             "icon": "images/gamma.webp",
             "membershiplevel": "Gold"
@@ -27,7 +27,7 @@
         {
             "name": "Delta Dollar Shop",
             "address": "Electra Lane, 47",
-            "phonenumber": "10017107",
+            "phonenumber": "(101) 10017107",
             "website": "www.deltadollarshop.com",
             "icon": "images/delta.webp",
             "membershiplevel": "Silver"
@@ -35,7 +35,7 @@
         {
             "name": "Epsilom Eletronics Store",
             "address": "Merope Alley, 7",
-            "phonenumber": "10017239",
+            "phonenumber": "(101) 10017239",
             "website": "www.epsilomeletronicsstore.com",
             "icon": "images/epsilom.webp",
             "membershiplevel": "NP"
@@ -43,7 +43,7 @@
         {
             "name": "Zeta Gas Station",
             "address": "Pleione Street, 983",
-            "phonenumber": "10017373",
+            "phonenumber": "(101) 10017373",
             "website": "www.zetagasstation.com",
             "icon": "images/zeta.webp",
             "membershiplevel": "Bronze"
@@ -51,7 +51,7 @@
         {
             "name": "Omega Sports Store",
             "address": "Taygeta Square, 499",
-            "phonenumber": "10017587",
+            "phonenumber": "(101) 10017587",
             "website": "www.omegasportsstore.com",
             "icon": "images/omega.webp",
             "membershiplevel": "Silver"
