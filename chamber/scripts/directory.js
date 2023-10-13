@@ -25,7 +25,7 @@ const displayMembers = (companies) => {
         let address = document.createElement('p');
         let anchor = document.createElement('a');
 
-        image.setAttribute('src', company.icon);
+        image.setAttribute('src', `images/${company.icon}`);
         image.setAttribute('alt', `${company.name} Logo`);
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '200');

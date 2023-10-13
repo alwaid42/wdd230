@@ -5,7 +5,7 @@
             "address": "Aldebaran Avenue, 1753",
             "phonenumber": "(101) 10016543",
             "website": "www.alphaautomotiveshowroom.com",
-            "icon": "images/alpha.webp",
+            "icon": "alpha.webp",
             "membershiplevel": "NP"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Beta Tauri Boulevard, 467",
             "phonenumber": "(101) 10016719",
             "website": "www.betabakery.com",
-            "icon": "images/beta.webp",
+            "icon": "beta.webp",
             "membershiplevel": "Bronze"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Alcyone Drive, 17",
             "phonenumber": "(101) 10016953",
             "website": "www.gammaclothingstore.com",
-            "icon": "images/gamma.webp",
+            "icon": "gamma.webp",
             "membershiplevel": "Gold"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Electra Lane, 47",
             "phonenumber": "(101) 10017107",
             "website": "www.deltadollarshop.com",
-            "icon": "images/delta.webp",
+            "icon": "delta.webp",
             "membershiplevel": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Merope Alley, 7",
             "phonenumber": "(101) 10017239",
             "website": "www.epsilomeletronicsstore.com",
-            "icon": "images/epsilom.webp",
+            "icon": "epsilom.webp",
             "membershiplevel": "NP"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Pleione Street, 983",
             "phonenumber": "(101) 10017373",
             "website": "www.zetagasstation.com",
-            "icon": "images/zeta.webp",
+            "icon": "zeta.webp",
             "membershiplevel": "Bronze"
         },
         {
@@ -53,7 +53,7 @@
             "address": "Taygeta Square, 499",
             "phonenumber": "(101) 10017587",
             "website": "www.omegasportsstore.com",
-            "icon": "images/omega.webp",
+            "icon": "omega.webp",
             "membershiplevel": "Silver"
         }
     ]
