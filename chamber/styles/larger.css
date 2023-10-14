@@ -123,5 +123,27 @@
         align-self: center;
     }
 
+    /* Directory*/
+    .list section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+        padding: 0.25rem;
+    }
+
+    .list a {
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    .list h3 {
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .list p {
+        text-align: center;
+        margin: 1rem;
+    }
 
 }

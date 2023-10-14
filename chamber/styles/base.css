@@ -161,6 +161,7 @@ section img {
 .visits {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
     padding: 1rem;
     display: block;
     margin: 1rem;
@@ -288,14 +289,62 @@ form label.top input:focus {
 }
 
 /* directory */
-#members {
+.viewmenu {
+    text-align: center;
+    padding: 0.5em;
+    background-color: white;
+    margin: 0.5rem auto;
+}
+
+.viewmenu button {
+    padding: 1em;
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     text-align: center;
 }
 
-#members a {
+.grid img {
+    display: block;
+    margin: 0 auto;
+}
+
+.grid a {
     display: inline;
     word-wrap: break-word;
     margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin: 0;
+    padding: 1rem;
+}
+
+.list img {
+    display: none;
+}
+
+.list a {
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.list h3 {
+    text-align: left;
+    margin: 0;
+}
+
+.list p {
+    text-align: left;
+    margin: 0;
 }
