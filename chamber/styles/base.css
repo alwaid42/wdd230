@@ -296,6 +296,11 @@ form label.top input:focus {
     margin: 0.5rem auto;
 }
 
+.viewmenu img {
+    width: 52px;
+    height: auto;
+}
+
 .viewmenu button {
     padding: 1em;
 }
@@ -309,6 +314,8 @@ form label.top input:focus {
 .grid img {
     display: block;
     margin: 0 auto;
+    width: 200px;
+    height: auto;
 }
 
 .grid a {
