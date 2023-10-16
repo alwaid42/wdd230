@@ -56,6 +56,9 @@ nav {
     margin: 0;
     position: relative;
     left: 40%;
+    background-color: #254E70;
+    border: none;
+    color: #fff;
 }
 
 .menu::before {
@@ -371,9 +374,9 @@ form label.top input:focus {
 
 #banner {
     text-align: center;
-    background-color: #37718E;
+    background-color: #AEF3E7;
     padding: 0.005rem 1rem;
-    color: #fff;
+    color: #000;
     position: relative;
 }
 
@@ -391,7 +394,7 @@ form label.top input:focus {
 }
 
 #closeBanner {
-    background-color: #37718E;
+    background-color: #AEF3E7;
     border: none;
 
 }
