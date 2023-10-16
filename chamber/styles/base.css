@@ -182,19 +182,7 @@ section img {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.spot1 {
-    border: 1px solid #cac3c3;
-    overflow-wrap: break-word;
-    margin: 1rem;
-}
-
-.spot2 {
-    border: 1px solid #cac3c3;
-    overflow-wrap: break-word;
-    margin: 1rem;
-}
-
-.spot3 {
+.spotlight div div {
     border: 1px solid #cac3c3;
     overflow-wrap: break-word;
     margin: 1rem;
