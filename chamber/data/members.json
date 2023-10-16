@@ -55,6 +55,14 @@
             "website": "www.omegasportsstore.com",
             "icon": "omega.webp",
             "membershiplevel": "Silver"
+        },
+        {
+            "name": "Eta Flowers",
+            "address": "Celaeno Street, 23",
+            "phonenumber": "(101) 54762209",
+            "website": "www.etaflowers.com",
+            "icon": "eta.webp",
+            "membershiplevel": "Gold"
         }
     ]
 }
