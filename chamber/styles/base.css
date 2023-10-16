@@ -182,10 +182,27 @@ section img {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.spotlight div div {
+.spot-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    text-align: center;
+    justify-content: center;
+}
+
+.spot-flex div {
     border: 1px solid #cac3c3;
     overflow-wrap: break-word;
-    margin: 1rem;
+    margin: 0.25rem;
+    max-width: 90%;
+}
+
+.spot-flex div p {
+    margin: 0;
+}
+
+.spot-flex div h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 footer {

@@ -151,4 +151,8 @@
         padding: 1rem;
         margin: 10px;
     }
+
+    .spot-flex div {
+        max-width: 25%;
+    }
 }

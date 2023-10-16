@@ -1,14 +1,14 @@
 const membersURL = "https://alwaid42.github.io/wdd230/chamber/data/members.json";
 const displayarea = document.querySelector('.spot-flex');
 
-getMembers();
+getSelectedMembers();
 
-async function getMembers() {
+async function getSelectedMembers() {
     try {
         const response = await fetch(membersURL);
         if (response.ok) {
             const data = await response.json();
-            displayMembers(data.companies);
+            displaySelectedMembers(data.companies);
         } else {
             throw Error(await response.text());
         }
@@ -39,7 +39,7 @@ function selectMembers(companies) {
     return chosenMembers;
 }
 
-const displayMembers = (companies) => {
+const displaySelectedMembers = (companies) => {
     const spotlightMembers = selectMembers(companies);
     companies.forEach((company, index) => {
         if (spotlightMembers.includes(index)) {
@@ -60,8 +60,8 @@ const displayMembers = (companies) => {
             phone.innerHTML = company.phonenumber;
             address.innerHTML = company.address;
 
-            anchor.setAttribute('href', `${company.website}`);
-            //anchor.setAttribute('href', `$https://{company.website}`); //if I wanted to transfer to a external website
+            anchor.setAttribute('href', '#');  //used # so the link is not broken to the fake website
+            //anchor.setAttribute('href', `$https://{company.website}`); //To transfer to a external website
             anchor.setAttribute('target', '_blank');
             anchor.textContent = `${company.website}`;
 

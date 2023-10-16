@@ -35,8 +35,8 @@ const displayMembers = (companies) => {
         phone.innerHTML = company.phonenumber;
         address.innerHTML = company.address;
 
-        anchor.setAttribute('href', `${company.website}`);
-        //anchor.setAttribute('href', `$https://{company.website}`); //if I wanted to transfer to a external website
+        anchor.setAttribute('href', '#'); //used # so the link is not broken to the fake website
+        //anchor.setAttribute('href', `$https://{company.website}`); //To transfer to a external website
         anchor.setAttribute('target', '_blank');
         anchor.textContent = `${company.website}`;
 
