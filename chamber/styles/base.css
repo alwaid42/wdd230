@@ -19,7 +19,8 @@ h3 {
 
 header,
 main,
-footer {
+footer,
+#banner {
     max-width: 800px;
     margin: 0 auto;
 }
@@ -361,4 +362,31 @@ form label.top input:focus {
     background-color: white;
     padding: 1rem;
     margin: 0 auto;
+}
+
+#banner {
+    text-align: center;
+    background-color: #37718E;
+    padding: 0.005rem 1rem;
+    color: #fff;
+    position: relative;
+}
+
+#banner p {
+    margin-right: 25px;
+}
+
+#banner div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#closeBanner {
+    background-color: #37718E;
+    border: none;
+
 }
