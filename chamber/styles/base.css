@@ -400,7 +400,13 @@ form label.top input:focus {
 }
 
 /*Weather*/
+.spot-flex img {
+    max-width: 250px;
+    height: auto;
+}
 
+
+/*Weather*/
 
 .weather div {
     display: grid;
