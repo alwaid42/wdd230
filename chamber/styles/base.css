@@ -400,3 +400,20 @@ form label.top input:focus {
 }
 
 /*Weather*/
+
+
+.weather div {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.weather div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+}
+
+.weather img {
+    margin: 0 auto;
+}

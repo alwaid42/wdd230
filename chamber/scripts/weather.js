@@ -80,8 +80,9 @@ function displayWeather(data) {
         card.appendChild(day);
         card.appendChild(temp);
         if (index == 0) {
+            let figure = document.createElement('figure');
             let image = document.createElement('img');
-            let desc = document.createElement('p');
+            let desc = document.createElement('figcaption');
 
             desc.innerHTML = `${data.list[index].weather[0].description}`;
 
@@ -91,8 +92,10 @@ function displayWeather(data) {
             image.setAttribute('width', '100');
             image.setAttribute('height', '100');
 
-            card.appendChild(image);
-            card.appendChild(desc);
+            figure.appendChild(image);
+            figure.appendChild(desc);
+
+            card.appendChild(figure)
         }
 
         weatherArea.appendChild(card);
