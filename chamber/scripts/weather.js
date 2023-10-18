@@ -78,7 +78,7 @@ function displayWeather(data) {
         temp.innerHTML = `${data.list[index].main.temp}&deg;C`;
 
         card.appendChild(day);
-        card.appendChild(temp);
+
         if (index == 0) {
             let figure = document.createElement('figure');
             let image = document.createElement('img');
@@ -97,6 +97,7 @@ function displayWeather(data) {
 
             card.appendChild(figure)
         }
+        card.appendChild(temp);
 
         weatherArea.appendChild(card);
     });
