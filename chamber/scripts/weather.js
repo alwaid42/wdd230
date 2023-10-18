@@ -89,8 +89,8 @@ function displayWeather(data) {
             image.setAttribute('src', `https://openweathermap.org/img/w/${data.list[index].weather[0].icon}.png`);
             image.setAttribute('alt', `Weather Icon ${data.list[index].weather[0].description}`);
             image.setAttribute('loading', 'lazy');
-            image.setAttribute('width', '100');
-            image.setAttribute('height', '100');
+            image.setAttribute('width', '50');
+            image.setAttribute('height', '50');
 
             figure.appendChild(image);
             figure.appendChild(desc);
