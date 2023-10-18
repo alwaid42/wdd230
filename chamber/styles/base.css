@@ -311,7 +311,7 @@ form label.top input:focus {
 }
 
 .viewmenu img {
-    width: 52px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -328,7 +328,7 @@ form label.top input:focus {
 .grid img {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
