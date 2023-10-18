@@ -208,6 +208,11 @@ section img {
     margin-bottom: 0;
 }
 
+.spot-flex img {
+    max-width: 100%;
+    height: auto;
+}
+
 footer {
     background-color: #224658;
     color: #fff;
@@ -400,10 +405,7 @@ form label.top input:focus {
 }
 
 /*Weather*/
-.spot-flex img {
-    max-width: 250px;
-    height: auto;
-}
+
 
 
 /*Weather*/
